@@ -1,0 +1,142 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  animation: fadeIn 1.5s ease forwards;
+}
+
+.login-box {
+  display: flex;
+  width: 800px;
+  background: white;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  animation: slideIn 1s ease forwards;
+}
+
+.login-left {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.login-left h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.message {
+  font-size: 14px;
+  color: #666;
+}
+
+.success {
+  color: green;
+}
+
+.danger {
+  color: red;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #ff4b2b;
+  margin-bottom: 20px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff416c;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.links a {
+  color: #ff4b2b;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.login-right {
+  flex: 1;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-right img {
+  width: 370px;
+  height: 400px;
+}
+
+@media (max-width: 600px) {
+  .login-box {
+    width: 350px;
+  }
+  .login-right {
+    display: none;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .login-box {
+    width: 700px;
+  }
+  .login-right img {
+    width: 350px;
+    height: 400px;
+  }
+}
