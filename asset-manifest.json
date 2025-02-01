@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nternIntelligence_login-page/static/css/main.503e4a25.css",
+    "main.js": "/nternIntelligence_login-page/static/js/main.a96e2e83.js",
+    "static/js/453.9c5d69c4.chunk.js": "/nternIntelligence_login-page/static/js/453.9c5d69c4.chunk.js",
+    "index.html": "/nternIntelligence_login-page/index.html",
+    "main.503e4a25.css.map": "/nternIntelligence_login-page/static/css/main.503e4a25.css.map",
+    "main.a96e2e83.js.map": "/nternIntelligence_login-page/static/js/main.a96e2e83.js.map",
+    "453.9c5d69c4.chunk.js.map": "/nternIntelligence_login-page/static/js/453.9c5d69c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.503e4a25.css",
+    "static/js/main.a96e2e83.js"
+  ]
+}
